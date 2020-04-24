@@ -1,10 +1,99 @@
-/*csslint empty-rules: false, ids: false, qualified-headings: false, known-properties: false*/
+/*csslint empty-rules: false, ids: false, qualified-headings: false, known-properties: false, box-model: false*/
 /************************* TAG SELECTORS *************************/
+body {
+  background-color: #283149;
+  text-align: center;
+}
 
+/* Here to override chrome's user agent stylesheet for buttons */
+button {
+  border: none;
+  display: inline-block;
+  font-family: sans-serif;
+  text-decoration: none;
+  transition: background 250ms ease-in-out,
+              transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
 
+footer {
+  color: #DBEDF3;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #DBEDF3;
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-size: 5rem;
+  height: 100px;
+  text-shadow: 3px 0 #DA0463;
+}
 
 /************************ CLASS SELECTORS ************************/
+.a {
 
+}
 
+.container {
+  margin-top: 50px;
+}
 
-/************************* ID SELECTORS *************************/
+.d {
+
+}
+
+.drum {
+  background-color: #ffffff;
+  border: 10px solid #404B69;
+  border-radius: 15px;
+  color: #DA0463;
+  display: inline-block;
+  font-family:serif;
+  font-size: 5rem;
+  font-weight: 900;
+  height: 150px;
+  line-height: 2;
+  margin: 10px;
+  outline: none;
+  text-shadow: 3px 0 #DBEDF3;
+  width: 150px;
+}
+
+.drumSet {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.j {
+
+}
+
+.k {
+
+}
+
+.l {
+
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.s {
+
+}
+
+.w {
+
+}

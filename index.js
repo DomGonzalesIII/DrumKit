@@ -1,3 +1,11 @@
 /* jshint esversion: 6 */
 
-// javascript goes below here
+var drums = document.querySelectorAll('.drum');
+
+drums.forEach((drum, i) => {
+  drum.addEventListener('click', handleClick);
+});
+
+function handleClick() {
+  alert("I've been clicked!");
+}
